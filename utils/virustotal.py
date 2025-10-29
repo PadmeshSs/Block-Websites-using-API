@@ -1,9 +1,10 @@
 import requests
 from tkinter import messagebox
 import os
+from config import VIRUSTOTAL_API_KEY
 
 def checksite(url):
-    api_key = "5b771ea6fe0db333f9c2b37c677ad67faba29e9b9831a6d4a59dc130657bdf51"
+    api_key = VIRUSTOTAL_API_KEY
     if not url:
         messagebox.showwarning("Warning", "Please enter a website URL")
         return

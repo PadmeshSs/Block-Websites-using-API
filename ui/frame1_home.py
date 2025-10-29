@@ -9,6 +9,9 @@ class Frame1(tk.Frame):
         super().__init__(master, bg="#222222", *args, **kwargs)
         self.go_to_frame2 = None
 
+        self.grid_columnconfigure(0, weight=1)
+
+
         # Heading
         tk.Label(self, text="Welcome!", bg="#222222", fg="white", font=tk_font_title).grid(row=0, column=0, pady=(15, 0), padx=30, sticky="w")
         tk.Label(self, text="This tool helps you block malicious websites and check their safety using VirusTotal API.",

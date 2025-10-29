@@ -4,6 +4,7 @@ import string
 import smtplib
 from tkinter import messagebox
 from email.mime.text import MIMEText
+from config import SENDER_EMAIL, SENDER_PASSWORD
 
 password = ''
 
@@ -23,8 +24,8 @@ def send_email(recipient):
         messagebox.showerror("Error", "Invalid email format.")
         return
 
-    sender_email = "mrgilli1514@gmail.com"
-    sender_password = "vsgz qreg nhfy ilzo"  # will use env later
+    sender_email = SENDER_EMAIL  
+    sender_password = SENDER_PASSWORD
 
     msg = MIMEText(f"Hello,\n\nYour generated password:\n\n{password}\n\nKeep it safe!")
     msg['From'] = sender_email
