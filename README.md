@@ -104,6 +104,24 @@ Then:
 │ ├── virustotal.py
 ├── main.py
 ```
+---
+
+## Images
+
+### Interface
+![image](./assets/block_2.png)
+
+### Interface 2
+![image](./assets/block_1.png)
+
+### Writing into hostfile 
+![image](./assets/block_3.png)
+
+### Clipboard
+![image](./assets/block_4.png)
+
+### Password sent through mail
+![image](./assets/block_5.png)
 
 ---
 
