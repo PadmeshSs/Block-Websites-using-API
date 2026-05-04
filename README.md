@@ -120,8 +120,7 @@ Then:
 ### Clipboard
 ![image](./assets/block_4.png)
 
-### Password sent through mail
-![image](./assets/block_5.png)
+
 
 ---
 
